@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Ride | Carpool Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Carpool<span>Connect</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search.html">Search Ride</a></li>
+                <li><a href="offer.html">Offer Ride</a></li>
+                <li><a href="ridedetails.html">Ride Details</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="search-form">
+        <h2>Find a Ride</h2>
+        <form>
+            <input type="text" placeholder="From" required />
+            <input type="text" placeholder="To" required />
+            <input type="date" required />
+            <input type="time" required />
+            <button type="submit">Search</button>
+        </form>
+    </section>
+    <div class="glow-line"></div>
+    
+    <section class="ride-results">
+        <h3>Available Rides</h3>
+        <div class="ride-card">
+            <div>
+                <strong>Driver:</strong>Lorem, ipsum dolor.<br />
+                <strong>Car:</strong> Supra<br />
+                <strong>Seats:</strong> 2<br />
+                <strong>Time:</strong> 5:00 AM
+            </div>
+            <a href="ride-details.html">View</a>
+        </div>
+        
+        <div class="ride-card">
+            <div>
+                <strong>Driver:</strong> Lorem, ipsum dolor.<br />
+                <strong>Car:</strong> ferrari<br />
+                <strong>Seats:</strong> 3<br />
+                <strong>Time:</strong> 1:00 PM
+            </div>
+            <a href="ride-details.html">View</a>
+        </div>
+        
+        <div class="ride-card">
+            <div>
+                <strong>Driver:</strong>Lorem, ipsum dolor.<br />
+                <strong>Car:</strong> lamborghini<br />
+                <strong>Seats:</strong> 1<br />
+                <strong>Time:</strong> 5:00 PM
+            </div>
+            <a href="ride-details.html">Book</a>
+        </div>
+    </section>
+    <div class="glow-line"></div>
+    <footer>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+        <p>&copy; 2025 Carpool Connect. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
